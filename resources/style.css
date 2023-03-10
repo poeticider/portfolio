@@ -1,0 +1,424 @@
+/**to do: style as though coding window (use courses.js as a reference for colours) **/
+@font-face {
+    font-family: Nanum_Gothic_Coding_Regular;
+    src: url(media/fonts/Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf);
+}
+
+@font-face {
+    font-family: Nanum_Gothic_Coding_Bold;
+    src: url(media/fonts/Nanum_Gothic_Coding/NanumGothicCoding-Bold.ttf);
+}
+
+* {
+    background-color: #050818;
+    color: #5C72FE;
+    font-family: Nanum_Gothic_Coding_Regular, Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    border-left: #0F0F28 solid 2.5rem;
+    border-bottom: #00010E solid 2.5rem;
+    margin: 0rem;
+}
+
+/**--------------Header CSS------------------**/
+
+.header {
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 5rem;
+}
+
+.navLinksParent {
+    background-color: #121234; 
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1.5fr  1fr  1fr  1fr  1fr;
+    grid-row: 1;
+    grid-column: 1/6;
+    height: 5rem;
+    text-align: center;
+    position: fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+.navLinksChild {
+    background-color: #121234;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navLinksAnchor {
+    background-color: #121234;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+/*Index(dan.riley)*/
+
+.danRiley {
+    background-color: #121234;
+    font-family: Nanum_Gothic_Coding_Bold, Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+/*overrides class on dan.riley */
+
+#dan {
+    color: #EB282B;
+}
+
+#brackets {
+    color: #FFF70F;
+}
+
+#semiColon {
+    color: #AAA991;
+}
+
+.semiColon {
+    color: #AAA991;
+}
+
+/*other nav links colour*/
+
+.hBrackets {
+    color: #FFF70F;
+    background-color: #121234; 
+}
+
+.hInvCommas {
+    color:#61D958;
+    background-color: #121234; 
+}
+
+.hSemiColon {
+    color: #AAA991;
+    background-color: #121234; 
+}
+
+.brackets {
+    color: #FFF70F;
+}
+
+.invCommas {
+    color:#61D958;
+}
+
+.semiColon {
+    color: #AAA991;
+}
+
+.semiColonBold {
+    color: #AAA991;
+    font-family: Nanum_Gothic_Coding_Bold, Arial, Helvetica, sans-serif;
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* Class subtitle */
+
+.h1Main {
+    background-color: #0F0F28;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    border-bottom: #00010E solid 0.5rem;
+    font-family: Nanum_Gothic_Coding_Bold, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+
+.sTitleClassDec {
+    color: #CC3FD3;
+    background-color: #0F0F28;
+}
+
+.sTitleParentClass {
+    color:#61D958;
+    background-color: #0F0F28;
+}
+
+.sTitleChildClass {
+    color:#F1EC55;
+    background-color: #0F0F28;
+}
+
+.sTitleBrace {
+    color: #FFF70F;
+    background-color: #0F0F28;
+}
+
+.sTitleSemiColon {
+    color: #AAA991;
+    background-color: #0F0F28;
+}
+
+/* Index Page Elements */
+
+#danIntro {
+    color: #EB282B;
+    font-family: Nanum_Gothic_Coding_Bold, Arial, Helvetica, sans-serif;
+}
+
+.profilePic {
+    height: 20rem;
+    width: auto;
+}
+
+.profilePicCrop {
+    display: none;
+}
+
+#h3Main {
+    padding-top: 1rem;
+    font-size: 1.7rem;
+}
+
+.tabOver {
+    padding-left: 8rem;
+}
+
+.extLinks {
+    font-size: 1.5rem;
+    color:#61D958;
+    text-decoration: none;
+}
+
+.extLinks:hover {
+    color:#F1EC55;
+}
+
+.closingBrace {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.2rem;
+    border-top: #00010E solid 0.5rem;
+    padding-left: 2rem;
+    font-family: Nanum_Gothic_Coding_Regular, Arial, Helvetica, sans-serif;
+    color: #FFF70F;
+    font-size: 2rem;
+    background-color: #0F0F28;
+}
+
+h2 {
+    margin-top: 3rem;
+    font-family: Nanum_Gothic_Coding_Bold, Arial, Helvetica, sans-serif;
+}
+
+.h2Main {
+    font-size: 2rem; 
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+
+/*----------------------------------------------*/
+/* about us page */
+
+#h1About {
+    color: #EB282B;    
+    background-color: #0F0F28;
+}
+
+#aboutIntro {
+    color:#61D958;
+    font-family: Nanum_Gothic_Coding_Bold, Arial, Helvetica, sans-serif;
+}
+
+#aboutSemiColon {
+    background-color: #0F0F28;  
+    color: #AAA991;  
+}
+
+.aboutTextSection {
+    padding-left: 3rem;
+}
+
+.danRImg {
+    display: block;
+    width: 20rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0rem;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 1rem;
+    color: #AAA991;
+    padding-top: 0.2rem;
+    padding-bottom: 2rem;
+}
+
+.aboutUsP {
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+#highlightGreenBold {
+    color:#61D958;
+    font-family: Nanum_Gothic_Coding_Bold, Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+}
+
+#danProfImg {
+    margin-bottom: 2rem;
+}
+
+/* --------------------------------------- */
+
+/* Skills Page Elements */
+
+.skillsObject {
+    font-size: 1.3rem;
+    color:#61D958;
+}
+
+.skillsObjectBlue {
+    font-size: 1.3rem;
+}
+
+/* Projects Page Elements */
+
+.highlightRedBold {
+    color: #EB282B;
+    font-family: Nanum_Gothic_Coding_Bold, Arial, Helvetica, sans-serif; 
+}
+
+.break {
+    height: 0.5rem;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+/* Contact Page Elements */
+
+.highlightRed {
+    color: #EB282B;
+}
+
+/*------------------------------------------*/
+
+/* smaller display settings */
+
+@media (max-width: 1020px) {
+    .danRiley {
+        font-family: Nanum_Gothic_Coding_Bold, Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+
+
+    .navLinksAnchor {
+        text-decoration: none;
+        font-size: 1.4rem;
+    }
+
+    .navLinksParent {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1.5fr  1fr  1fr  1fr  1fr;
+        grid-row: 1;
+        grid-column: 1/6;
+        height: 5rem;
+        
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    body {
+        border-left: #050818 solid 0.5rem;
+        border-bottom: #00010E solid 0.5rem;
+    }
+
+    /* header */
+
+    .navLinksParent {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+    }  
+
+    .navLinksChild {
+        font-size: 1rem;
+    }
+
+    .navLinksAnchor {
+        font-size: 1.5rem;
+    }
+
+    /* main */
+
+    .h1Main {
+        margin-top: 6.5rem;        
+    }
+
+    .profilePic {
+        display: none;
+    }
+
+    .profilePicCrop {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 20rem;
+        width: auto;
+    }
+
+    #skillsExtends {
+        display: none;
+    }
+
+    #skillsPortfolio {
+        display: none;
+    }
+
+    #projectsExtends {
+        display: none;
+    }
+
+    #projectsPortfolio {
+        display: none;
+    }
+
+    #otherExtends {
+        display: none;
+    }
+
+    #otherPortfolio {
+        display: none;
+    }
+
+    .tabOver {
+        /*padding left was 1rem */
+        padding-left: 0rem;
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 1rem;
+    }
+
+    .closingBrace {
+        margin-top: 0.5rem;
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+}
