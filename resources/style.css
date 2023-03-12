@@ -344,9 +344,11 @@ figcaption {
 @media (max-width: 768px) {
 
     body {
-        border-left: #050818 solid 0.5rem;
+        border-left: #0F0F28 solid 0.5rem;
         border-bottom: #00010E solid 0.5rem;
+        overflow: auto;
     }
+
 
     /* header */
 
@@ -368,6 +370,7 @@ figcaption {
     .h1Main {
         margin-top: 6.5rem;        
     }
+
 
     .profilePic {
         display: none;
@@ -407,8 +410,13 @@ figcaption {
 
     .tabOver {
         /*padding left was 1rem */
-        padding-left: 0rem;
-        text-align: center;
+        padding-left: 0.5rem;
+        text-align: left;
+        padding-bottom: 0.5rem;
+    }
+
+    .h2Main {
+        padding-top: 1rem;
     }
 
     h2 {
@@ -419,6 +427,10 @@ figcaption {
         margin-top: 0.5rem;
         padding-top: 0.5rem;
         padding-left: 0.5rem;
+    }
+
+    .pushLeft {
+        padding-left: 17rem;
     }
 
 }
